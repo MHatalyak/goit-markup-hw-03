@@ -1,0 +1,199 @@
+:root{
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --letter-space: 0.02em;
+    --primary-color: #2E2F42;
+    --secondary-color: #434455;
+    --primary-bg-color: #434455;
+    --secondary-bg-color: #F4F4FD;
+    --accent-color: #404BBF;
+    --btn-bg-color: #4D5AE5;
+    --white-color: #FFFFFF;
+    --footer-text-color: #E7E9FC;
+}
+
+body{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    letter-spacing: var(--letter-space);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+/* ----------------COMPONENTS-------------------- */
+.icon-link {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    /* display: flex;
+    align-items: center; */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.icon-link-web{
+    color: var(--btn-bg-color);
+}
+
+.secondary-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.section-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.main-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--secondary-color);
+}
+/* ----------------/COMPONENTS-------------------- */
+
+/* -----------------HEADER-------------------- */
+.header-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--accent-color);
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.contact-link{
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+/* -----------------/HEADER-------------------- */
+
+/* -----------------PORTFOLIO HEADER CHANGES-------------------- */
+.menu-link-selected{
+    color: var(--accent-color);
+}
+
+
+/* -----------------INDEX HERO SECTION-------------------- */
+.hero-section {
+    background-color: var(--primary-bg-color);
+}
+
+.hero-header {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.hero-btn {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* display: flex;
+    align-items: center; */
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+
+    background: var(--btn-bg-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+    background: var(--accent-color);
+    cursor: pointer;
+}
+/* -----------------/INDEX HERO SECTION-------------------- */
+
+/* -----------------INDEX TEAM SECTION-------------------- */
+.section3 {
+    background: var(--secondary-bg-color);
+}
+
+.section3-item {
+    background: var(--white-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+/* -----------------/INDEX TEAM SECTION-------------------- */
+
+/* -----------------PORTFOLIO MAIN SECTION-------------------- */
+.btn-button {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* display: flex;
+    align-items: center; */
+    letter-spacing: 0.04em;
+    color: var(--btn-bg-color);
+
+    background: var(--secondary-bg-color);
+    border: 1px solid var(--footer-text-color);
+    border-radius: 4px;
+}
+
+.btn-button:hover,
+.btn-button:focus {
+    color: var(--white-color);
+    background: var(--accent-color);
+    cursor: pointer;
+}
+/* -----------------/PORTFOLIO MAIN SECTION-------------------- */
+
+
+/* -----------------FOOTER-------------------- */
+.footer {
+    background-color: var(--primary-bg-color);
+}
+
+.icon-link-footer {
+    color: var(--secondary-bg-color);
+    line-height: 1.17;
+}
+
+.footer-text {
+    color: var(--footer-text-color);
+}
+/* -----------------/FOOTER-------------------- */
+
+
+
+
+
